@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2df76d47cda851640b5425ea48d649e1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Manager: {fileID: 7228817342582621778, guid: 555732e822b9a2d44bee8b203cdbd419, type: 3}
+  - laserPrefab: {instanceID: 0}
+  - movementJoystick: {instanceID: 0}
+  - spriteRenderer: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

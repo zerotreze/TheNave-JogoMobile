@@ -1,0 +1,279 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4685800300398360107
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5444545142777825427}
+  m_Layer: 7
+  m_Name: pontotiroinimigo
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5444545142777825427
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4685800300398360107}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.01, y: -0.309, z: 0}
+  m_LocalScale: {x: 0.0809375, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7209602756622045266}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7209602756622045276
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7209602756622045266}
+  - component: {fileID: 7209602756622045277}
+  - component: {fileID: 7747992550061658161}
+  - component: {fileID: -5718688921761725477}
+  - component: {fileID: 7184817937465498900}
+  - component: {fileID: 6413051255343240356}
+  - component: {fileID: -880759746407134046}
+  - component: {fileID: -4843927815748315607}
+  m_Layer: 7
+  m_Name: naveamarela1
+  m_TagString: enemy0
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7209602756622045266
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7209602756622045276}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.976, y: -0.777, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5444545142777825427}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &7209602756622045277
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7209602756622045276}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 36e355f8134a40344b8af8fd294c57ce, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.96, y: 0.9}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!50 &7747992550061658161
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7209602756622045276}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
+--- !u!114 &-5718688921761725477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7209602756622045276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82da5f9c477713c42935c8f746ca1b39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidadeDoLaser: 0
+  danoParaDar: 2
+--- !u!95 &7184817937465498900
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7209602756622045276}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b9a0fb901cb6f5f4cb08835c11995a85, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!60 &6413051255343240356
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7209602756622045276}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.96, y: 0.9}
+    newSize: {x: 0.96, y: 0.9}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.4126262, y: 0.14398706}
+      - {x: 0.28262764, y: 0.073673785}
+      - {x: 0.27210853, y: 0.029983431}
+      - {x: 0.15776777, y: 0.07042396}
+      - {x: 0.09983826, y: 0.16735643}
+      - {x: 0.073681444, y: 0.033138216}
+      - {x: 0.080230445, y: 0.22661829}
+      - {x: -0.0092538, y: 0.2289303}
+      - {x: -0.05554104, y: 0.22877741}
+      - {x: -0.15178585, y: 0.06459117}
+      - {x: -0.4144926, y: 0.14685953}
+      - {x: -0.46947286, y: 0.06420092}
+      - {x: -0.5214176, y: -0.047733083}
+      - {x: -0.343472, y: -0.18465137}
+      - {x: -0.1597788, y: -0.24557626}
+      - {x: -0.15700479, y: -0.33862492}
+      - {x: 0.16441703, y: -0.32714537}
+      - {x: 0.18471527, y: -0.21433753}
+      - {x: 0.32518005, y: -0.18229795}
+      - {x: 0.45626518, y: -0.09713365}
+      - {x: 0.48137042, y: -0.060407847}
+      - {x: 0.5591788, y: 0.063673854}
+--- !u!114 &-880759746407134046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7209602756622045276}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e1aa063380ff914fb63736e13709a14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localDoTiroInimigo: {fileID: 5444545142777825427}
+  ImpactoDOLaserDoJogador: {fileID: 8861383512631899206, guid: 674a8cf7fc84b294ea5d9e4ec7ce9459, type: 3}
+  pontosParaDar: 20
+  chanceParaDropar: 6
+  tempoEsperaTiro: 2.9
+  laserDoInimigo: {fileID: 8663069796857256894, guid: 5331dfbd504b7374292249b2f2123901, type: 3}
+  ItemParaDropar: {fileID: 6017891447095895232, guid: 767b18e4cec4a824c9633d3417d5fcc6, type: 3}
+  explodePrefab: {fileID: 3264510827153784701, guid: 73af3573bae1b2f46baa3a08d3bbc86d, type: 3}
+  speed: 1.5
+  vidaMaximaDoInimigo: 15
+  vidaAtualDoInimigo: 15
+  tempoMaximoEntreOsLasers: 0
+  tempoAtualDosLasers: 0
+  danoDaNave: 1
+--- !u!114 &-4843927815748315607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7209602756622045276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10cab343bb76c2c498fe7a49a3ef78db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localDoTiroInimigo: {fileID: 5444545142777825427}
+  ImpactoDOLaserDoJogador: {fileID: 8861383512631899206, guid: 674a8cf7fc84b294ea5d9e4ec7ce9459, type: 3}
+  pontosParaDar: 20
+  chanceParaDropar: 6
+  tempoEsperaTiro: 2.9
+  laserDoInimigo: {fileID: 8663069796857256894, guid: 5331dfbd504b7374292249b2f2123901, type: 3}
+  ItemParaDropar: {fileID: 6017891447095895232, guid: 767b18e4cec4a824c9633d3417d5fcc6, type: 3}
+  explodePrefab: {fileID: 3264510827153784701, guid: 73af3573bae1b2f46baa3a08d3bbc86d, type: 3}
+  speed: 1.5
+  vidaMaximaDoInimigo: 15
+  vidaAtualDoInimigo: 15
+  tempoMaximoEntreOsLasers: 0
+  tempoAtualDosLasers: 0
+  danoDaNave: 1
+  danoParaReceber: 100

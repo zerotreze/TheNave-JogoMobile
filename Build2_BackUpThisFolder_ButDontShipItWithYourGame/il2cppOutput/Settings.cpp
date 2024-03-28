@@ -1,0 +1,1130 @@
+﻿#include "pch-cpp.hpp"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include <limits>
+#include <stdint.h>
+
+
+template <typename T1>
+struct VirtualActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename R>
+struct VirtualFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+
+// System.Collections.Generic.List`1<UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader>
+struct List_1_tD698B2A66D241B0EFFAE6CE4A7882E6E7B3457D3;
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerProfile[]
+struct AdaptivePerformanceScalerProfileU5BU5D_t502F55D3686CAB852984FDB6F92431963616F4B7;
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings
+struct AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8;
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer
+struct AdaptivePerformanceIndexer_tE43B4A07AF7944322BA939E2D4F8AE90AD42EF73;
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexerSettings
+struct AdaptivePerformanceIndexerSettings_t3D9418B7302C8FCA3344719FF10FBADFD2F1CDC6;
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader
+struct AdaptivePerformanceLoader_tF12F9ABBB7711A0FDE47852B1F358EAD7664F54E;
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings
+struct AdaptivePerformanceManagerSettings_t825765630D775605D6E53BE60D90E50CCDDF30C2;
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings
+struct AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8;
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase
+struct AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA;
+// AdaptivePerformanceSettings
+struct AdaptivePerformanceSettings_tDAE6BC418ADCAB0349C798B096373570588FB89E;
+// UnityEngine.AdaptivePerformance.AdaptiveVariableRefreshRate
+struct AdaptiveVariableRefreshRate_tAEC009151419AD9BF86B44283692F0C4CD9794A4;
+// UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings
+struct IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8;
+// UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate
+struct IVariableRefreshRate_t85984F283B615BA6B004DC87C757980AA2452A85;
+// UnityEngine.MonoBehaviour
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+// UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+// System.String
+struct String_t;
+// System.Void
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+
+IL2CPP_EXTERN_C RuntimeClass* AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AdaptivePerformanceManagerSettings_t825765630D775605D6E53BE60D90E50CCDDF30C2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteralC822DC6ABCEFAD600372ED3C41907A8331E122B9;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_FindObjectOfType_TisAdaptiveVariableRefreshRate_tAEC009151419AD9BF86B44283692F0C4CD9794A4_m73B2D424B15BA7CD767DEA09FF3615AEFCF9EE52_RuntimeMethod_var;
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// <Module>
+struct U3CModuleU3E_tF2C326538819979278F922025AED72539DB95E92 
+{
+};
+
+// AdaptivePerformanceConfig
+struct AdaptivePerformanceConfig_t9F4A9AD04782FFE2F12FFF08EB8D3E0155468023  : public RuntimeObject
+{
+};
+
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings
+struct AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8  : public RuntimeObject
+{
+	// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::m_AdaptiveFramerate
+	AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* ___m_AdaptiveFramerate_0;
+	// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::m_AdaptiveResolution
+	AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* ___m_AdaptiveResolution_1;
+	// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::m_AdaptiveBatching
+	AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* ___m_AdaptiveBatching_2;
+	// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::m_AdaptiveLOD
+	AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* ___m_AdaptiveLOD_3;
+	// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::m_AdaptiveLut
+	AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* ___m_AdaptiveLut_4;
+	// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::m_AdaptiveMSAA
+	AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* ___m_AdaptiveMSAA_5;
+	// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::m_AdaptiveShadowCascade
+	AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* ___m_AdaptiveShadowCascade_6;
+	// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::m_AdaptiveShadowDistance
+	AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* ___m_AdaptiveShadowDistance_8;
+	// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::m_AdaptiveShadowmapResolution
+	AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* ___m_AdaptiveShadowmapResolution_9;
+	// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::m_AdaptiveShadowQuality
+	AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* ___m_AdaptiveShadowQuality_10;
+	// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::m_AdaptiveSorting
+	AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* ___m_AdaptiveSorting_11;
+	// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::m_AdaptiveTransparency
+	AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* ___m_AdaptiveTransparency_12;
+	// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::m_AdaptiveViewDistance
+	AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* ___m_AdaptiveViewDistance_13;
+};
+
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase
+struct AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA  : public RuntimeObject
+{
+	// System.String UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::m_Name
+	String_t* ___m_Name_0;
+	// System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::m_Enabled
+	bool ___m_Enabled_1;
+	// System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::m_Scale
+	float ___m_Scale_2;
+	// UnityEngine.AdaptivePerformance.ScalerVisualImpact UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::m_VisualImpact
+	int32_t ___m_VisualImpact_3;
+	// UnityEngine.AdaptivePerformance.ScalerTarget UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::m_Target
+	int32_t ___m_Target_4;
+	// System.Int32 UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::m_MaxLevel
+	int32_t ___m_MaxLevel_5;
+	// System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::m_MinBound
+	float ___m_MinBound_6;
+	// System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::m_MaxBound
+	float ___m_MaxBound_7;
+};
+struct Il2CppArrayBounds;
+
+// System.String
+struct String_t  : public RuntimeObject
+{
+	// System.Int32 System.String::_stringLength
+	int32_t ____stringLength_4;
+	// System.Char System.String::_firstChar
+	Il2CppChar ____firstChar_5;
+};
+
+struct String_t_StaticFields
+{
+	// System.String System.String::Empty
+	String_t* ___Empty_6;
+};
+
+// System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+// Native definition for P/Invoke marshalling of System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	// System.Boolean System.Boolean::m_value
+	bool ___m_value_0;
+};
+
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+};
+
+// System.Int32
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	// System.Int32 System.Int32::m_value
+	int32_t ___m_value_0;
+};
+
+// System.IntPtr
+struct IntPtr_t 
+{
+	// System.Void* System.IntPtr::m_value
+	void* ___m_value_0;
+};
+
+struct IntPtr_t_StaticFields
+{
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+};
+
+// System.Void
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+
+// UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	// System.IntPtr UnityEngine.Object::m_CachedPtr
+	intptr_t ___m_CachedPtr_0;
+};
+
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr_0;
+};
+// Native definition for COM marshalling of UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr_0;
+};
+
+// UnityEngine.Component
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+
+// UnityEngine.ScriptableObject
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+// Native definition for P/Invoke marshalling of UnityEngine.ScriptableObject
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinvoke : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of UnityEngine.ScriptableObject
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+};
+
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings
+struct AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	// UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::m_LoaderManagerInstance
+	AdaptivePerformanceManagerSettings_t825765630D775605D6E53BE60D90E50CCDDF30C2* ___m_LoaderManagerInstance_6;
+	// System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::m_InitManagerOnStart
+	bool ___m_InitManagerOnStart_7;
+	// UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::m_AdaptivePerformanceManager
+	AdaptivePerformanceManagerSettings_t825765630D775605D6E53BE60D90E50CCDDF30C2* ___m_AdaptivePerformanceManager_8;
+	// System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::m_ProviderIntialized
+	bool ___m_ProviderIntialized_9;
+	// System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::m_ProviderStarted
+	bool ___m_ProviderStarted_10;
+};
+
+struct AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8_StaticFields
+{
+	// System.String UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::k_SettingsKey
+	String_t* ___k_SettingsKey_4;
+	// UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::s_RuntimeSettingsInstance
+	AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8* ___s_RuntimeSettingsInstance_5;
+};
+
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader
+struct AdaptivePerformanceLoader_tF12F9ABBB7711A0FDE47852B1F358EAD7664F54E  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+};
+
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings
+struct AdaptivePerformanceManagerSettings_t825765630D775605D6E53BE60D90E50CCDDF30C2  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	// System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::m_InitializationComplete
+	bool ___m_InitializationComplete_4;
+	// System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::m_AutomaticLoading
+	bool ___m_AutomaticLoading_5;
+	// System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::m_AutomaticRunning
+	bool ___m_AutomaticRunning_6;
+	// System.Collections.Generic.List`1<UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader> UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::m_Loaders
+	List_1_tD698B2A66D241B0EFFAE6CE4A7882E6E7B3457D3* ___m_Loaders_7;
+};
+
+struct AdaptivePerformanceManagerSettings_t825765630D775605D6E53BE60D90E50CCDDF30C2_StaticFields
+{
+	// UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::s_ActiveLoader
+	AdaptivePerformanceLoader_tF12F9ABBB7711A0FDE47852B1F358EAD7664F54E* ___s_ActiveLoader_8;
+};
+
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler
+struct AdaptivePerformanceScaler_tB9F76E7E942E332BEF5DC363BE906AD4FD1700BC  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	// UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::m_Indexer
+	AdaptivePerformanceIndexer_tE43B4A07AF7944322BA939E2D4F8AE90AD42EF73* ___m_Indexer_4;
+	// System.Int32 UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::<CurrentLevel>k__BackingField
+	int32_t ___U3CCurrentLevelU3Ek__BackingField_5;
+	// System.Int32 UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::<GpuImpact>k__BackingField
+	int32_t ___U3CGpuImpactU3Ek__BackingField_6;
+	// System.Int32 UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::<CpuImpact>k__BackingField
+	int32_t ___U3CCpuImpactU3Ek__BackingField_7;
+	// System.Int32 UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::m_OverrideLevel
+	int32_t ___m_OverrideLevel_8;
+	// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::m_defaultSetting
+	AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* ___m_defaultSetting_9;
+	// UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::m_Settings
+	IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* ___m_Settings_10;
+};
+
+// UnityEngine.Behaviour
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+
+// UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings
+struct IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	// System.Boolean UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::m_Logging
+	bool ___m_Logging_4;
+	// System.Boolean UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::m_AutomaticPerformanceModeEnabled
+	bool ___m_AutomaticPerformanceModeEnabled_5;
+	// System.Boolean UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::m_EnableBoostOnStartup
+	bool ___m_EnableBoostOnStartup_6;
+	// System.Int32 UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::m_StatsLoggingFrequencyInFrames
+	int32_t ___m_StatsLoggingFrequencyInFrames_7;
+	// UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexerSettings UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::m_IndexerSettings
+	AdaptivePerformanceIndexerSettings_t3D9418B7302C8FCA3344719FF10FBADFD2F1CDC6* ___m_IndexerSettings_8;
+	// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::m_ScalerSettings
+	AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* ___m_ScalerSettings_9;
+	// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerProfile[] UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::m_scalerProfileList
+	AdaptivePerformanceScalerProfileU5BU5D_t502F55D3686CAB852984FDB6F92431963616F4B7* ___m_scalerProfileList_10;
+	// System.Int32 UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::m_DefaultScalerProfilerIndex
+	int32_t ___m_DefaultScalerProfilerIndex_11;
+};
+
+// UnityEngine.AdaptivePerformance.AdaptiveFramerate
+struct AdaptiveFramerate_t87F82B3C838B42BFDE5277B446D2A9C4674D6104  : public AdaptivePerformanceScaler_tB9F76E7E942E332BEF5DC363BE906AD4FD1700BC
+{
+	// System.Int32 UnityEngine.AdaptivePerformance.AdaptiveFramerate::m_DefaultFPS
+	int32_t ___m_DefaultFPS_11;
+};
+
+// UnityEngine.MonoBehaviour
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+
+// AdaptivePerformanceSettings
+struct AdaptivePerformanceSettings_tDAE6BC418ADCAB0349C798B096373570588FB89E  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// System.Boolean AdaptivePerformanceSettings::AdaptiveBatching
+	bool ___AdaptiveBatching_4;
+	// System.Boolean AdaptivePerformanceSettings::AdaptiveFramerate
+	bool ___AdaptiveFramerate_5;
+	// System.Boolean AdaptivePerformanceSettings::AdaptiveLOD
+	bool ___AdaptiveLOD_6;
+	// System.Boolean AdaptivePerformanceSettings::AdaptiveLut
+	bool ___AdaptiveLut_7;
+	// System.Boolean AdaptivePerformanceSettings::AdaptiveMSAA
+	bool ___AdaptiveMSAA_8;
+	// System.Boolean AdaptivePerformanceSettings::AdaptiveResolution
+	bool ___AdaptiveResolution_9;
+	// System.Boolean AdaptivePerformanceSettings::AdaptiveShadowCascades
+	bool ___AdaptiveShadowCascades_10;
+	// System.Boolean AdaptivePerformanceSettings::AdaptiveShadowDistance
+	bool ___AdaptiveShadowDistance_11;
+	// System.Boolean AdaptivePerformanceSettings::AdaptiveShadowmapResolution
+	bool ___AdaptiveShadowmapResolution_12;
+	// System.Boolean AdaptivePerformanceSettings::AdaptiveShadowQuality
+	bool ___AdaptiveShadowQuality_13;
+	// System.Boolean AdaptivePerformanceSettings::AdaptiveTransparency
+	bool ___AdaptiveTransparency_14;
+	// System.Boolean AdaptivePerformanceSettings::AdaptiveSorting
+	bool ___AdaptiveSorting_15;
+	// System.Boolean AdaptivePerformanceSettings::AdaptiveViewDistance
+	bool ___AdaptiveViewDistance_16;
+	// System.Boolean AdaptivePerformanceSettings::AdaptiveVRR
+	bool ___AdaptiveVRR_17;
+};
+
+// UnityEngine.AdaptivePerformance.AdaptiveVariableRefreshRate
+struct AdaptiveVariableRefreshRate_tAEC009151419AD9BF86B44283692F0C4CD9794A4  : public AdaptiveFramerate_t87F82B3C838B42BFDE5277B446D2A9C4674D6104
+{
+	// System.Boolean UnityEngine.AdaptivePerformance.AdaptiveVariableRefreshRate::m_AdaptiveVRREnabled
+	bool ___m_AdaptiveVRREnabled_12;
+	// UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate UnityEngine.AdaptivePerformance.AdaptiveVariableRefreshRate::m_VRR
+	RuntimeObject* ___m_VRR_13;
+	// System.Int32 UnityEngine.AdaptivePerformance.AdaptiveVariableRefreshRate::m_CurrentRefreshRateIndex
+	int32_t ___m_CurrentRefreshRateIndex_14;
+	// System.Int32 UnityEngine.AdaptivePerformance.AdaptiveVariableRefreshRate::m_DefaultRefreshRateIndex
+	int32_t ___m_DefaultRefreshRateIndex_15;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+
+
+// T UnityEngine.Object::FindObjectOfType<System.Object>()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_FindObjectOfType_TisRuntimeObject_m02DFBF011F3B59F777A5E521DB2A116DD496E968_gshared (const RuntimeMethod* method) ;
+
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::get_Instance()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8* AdaptivePerformanceGeneralSettings_get_Instance_mE2728DFE08F4BB68D6491D67C48ADD37A60D69D9_inline (const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.Object::op_Implicit(UnityEngine.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___exists0, const RuntimeMethod* method) ;
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::get_Manager()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceManagerSettings_t825765630D775605D6E53BE60D90E50CCDDF30C2* AdaptivePerformanceGeneralSettings_get_Manager_mDAE083CC0FAA4D35601D427F634CA2B856177594_inline (AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8* __this, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::get_isInitializationComplete()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool AdaptivePerformanceManagerSettings_get_isInitializationComplete_m21C21E3BDCD266224DC543AC4FAA3D96A62FF8CE_inline (AdaptivePerformanceManagerSettings_t825765630D775605D6E53BE60D90E50CCDDF30C2* __this, const RuntimeMethod* method) ;
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::get_activeLoader()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceLoader_tF12F9ABBB7711A0FDE47852B1F358EAD7664F54E* AdaptivePerformanceManagerSettings_get_activeLoader_m437ADEEB204181146DAB13B27D6752C74CEACD6F_inline (AdaptivePerformanceManagerSettings_t825765630D775605D6E53BE60D90E50CCDDF30C2* __this, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
+// System.Void UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::set_automaticPerformanceMode(System.Boolean)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void IAdaptivePerformanceSettings_set_automaticPerformanceMode_m7D2AE0452E6B78FF6CEC4838B42093BE059F74D0_inline (IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* __this, bool ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::set_logging(System.Boolean)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void IAdaptivePerformanceSettings_set_logging_mCE73AF887F2CF27D7078E04579699E72C4614C05_inline (IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* __this, bool ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Screen::set_sleepTimeout(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Screen_set_sleepTimeout_mB375970159A73BB484A2B5E62A943330B83ABF9A (int32_t ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Application::set_targetFrameRate(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_set_targetFrameRate_mB90EEA60DAE55CD71C38D4B7DFDBE2B34EA6B46F (int32_t ___value0, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::get_automaticPerformanceMode()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IAdaptivePerformanceSettings_get_automaticPerformanceMode_m51B5634FEB7E01814D62A2B27A444A477D8A1469_inline (IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* __this, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::get_logging()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IAdaptivePerformanceSettings_get_logging_mB0CC800270863EFBDC55AD11224ECB542CEC862D_inline (IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* __this, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.Application::get_targetFrameRate()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Application_get_targetFrameRate_m5A5B0FC0DFE1EBC940FF49B8237A243F45A630E1 (const RuntimeMethod* method) ;
+// System.String System.String::Format(System.String,System.Object,System.Object,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C (String_t* ___format0, RuntimeObject* ___arg01, RuntimeObject* ___arg12, RuntimeObject* ___arg23, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Debug::Log(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::get_scalerSettings()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* IAdaptivePerformanceSettings_get_scalerSettings_mB33C0AAA3A6CA0B05E9B1E205853D1698A088575_inline (IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* __this, const RuntimeMethod* method) ;
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveBatching()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* AdaptivePerformanceScalerSettings_get_AdaptiveBatching_mDC178D42713C75DE1ACF822852B8038D72EA821E_inline (AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::set_enabled(System.Boolean)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdaptivePerformanceScalerSettingsBase_set_enabled_m9ED5BD57BEF1EEA325609F4B29288390492797B8_inline (AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* __this, bool ___value0, const RuntimeMethod* method) ;
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveFramerate()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* AdaptivePerformanceScalerSettings_get_AdaptiveFramerate_m139C9E39E32D63FA9BC0C37B81B0F1FAE63CDECB_inline (AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* __this, const RuntimeMethod* method) ;
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveLOD()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* AdaptivePerformanceScalerSettings_get_AdaptiveLOD_m6A255C8B118A1769FE4DB9B8431F019FC556DA4C_inline (AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* __this, const RuntimeMethod* method) ;
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveLut()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* AdaptivePerformanceScalerSettings_get_AdaptiveLut_m2E6C5FF862F16ABF21E2CDC88C07A625F3B56FB1_inline (AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* __this, const RuntimeMethod* method) ;
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveMSAA()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* AdaptivePerformanceScalerSettings_get_AdaptiveMSAA_mE9B6B36E909157597D81AF42FE785D87DF987C7E_inline (AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* __this, const RuntimeMethod* method) ;
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveResolution()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* AdaptivePerformanceScalerSettings_get_AdaptiveResolution_m861CB3DABDDF10571C00579C62F0370AF2314D62_inline (AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* __this, const RuntimeMethod* method) ;
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveShadowCascade()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* AdaptivePerformanceScalerSettings_get_AdaptiveShadowCascade_mBD0680ECA67B38D0E03B61C5167BA1E378359F92_inline (AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* __this, const RuntimeMethod* method) ;
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveShadowDistance()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* AdaptivePerformanceScalerSettings_get_AdaptiveShadowDistance_mDC623CDFB794E162E723A28CF99AC6C2DE55D878_inline (AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* __this, const RuntimeMethod* method) ;
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveShadowmapResolution()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* AdaptivePerformanceScalerSettings_get_AdaptiveShadowmapResolution_mD0080328CCE0EB1C8E5AA887D368443BD46A8CD8_inline (AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* __this, const RuntimeMethod* method) ;
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveShadowQuality()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* AdaptivePerformanceScalerSettings_get_AdaptiveShadowQuality_m21DCF0D2F165C7336B14E21BD7884AF8BD693E2C_inline (AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* __this, const RuntimeMethod* method) ;
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveSorting()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* AdaptivePerformanceScalerSettings_get_AdaptiveSorting_mE5C2FD1CC0AB0A7AF3F6447C2943D50F40BC1016_inline (AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* __this, const RuntimeMethod* method) ;
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveTransparency()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* AdaptivePerformanceScalerSettings_get_AdaptiveTransparency_m4DA7C35BF8071924D5C8D9B0ADD7C5DDD5E32CE0_inline (AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* __this, const RuntimeMethod* method) ;
+// UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveViewDistance()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* AdaptivePerformanceScalerSettings_get_AdaptiveViewDistance_mE7E45AB3EC0919AAF5B9F80D395C676B7B4143A9_inline (AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* __this, const RuntimeMethod* method) ;
+// T UnityEngine.Object::FindObjectOfType<UnityEngine.AdaptivePerformance.AdaptiveVariableRefreshRate>()
+inline AdaptiveVariableRefreshRate_tAEC009151419AD9BF86B44283692F0C4CD9794A4* Object_FindObjectOfType_TisAdaptiveVariableRefreshRate_tAEC009151419AD9BF86B44283692F0C4CD9794A4_m73B2D424B15BA7CD767DEA09FF3615AEFCF9EE52 (const RuntimeMethod* method)
+{
+	return ((  AdaptiveVariableRefreshRate_tAEC009151419AD9BF86B44283692F0C4CD9794A4* (*) (const RuntimeMethod*))Object_FindObjectOfType_TisRuntimeObject_m02DFBF011F3B59F777A5E521DB2A116DD496E968_gshared)(method);
+}
+// System.Void UnityEngine.MonoBehaviour::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void AdaptivePerformanceConfig::Setup()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptivePerformanceConfig_Setup_mC8A99B0FE50A960DECF996EA33F2202CF161C44B (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC822DC6ABCEFAD600372ED3C41907A8331E122B9);
+		s_Il2CppMethodInitialized = true;
+	}
+	IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* V_0 = NULL;
+	{
+		// if (!AdaptivePerformanceGeneralSettings.Instance || !AdaptivePerformanceGeneralSettings.Instance.Manager || !AdaptivePerformanceGeneralSettings.Instance.Manager.isInitializationComplete)
+		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8_il2cpp_TypeInfo_var);
+		AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8* L_0;
+		L_0 = AdaptivePerformanceGeneralSettings_get_Instance_mE2728DFE08F4BB68D6491D67C48ADD37A60D69D9_inline(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8_il2cpp_TypeInfo_var);
+		AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8* L_2;
+		L_2 = AdaptivePerformanceGeneralSettings_get_Instance_mE2728DFE08F4BB68D6491D67C48ADD37A60D69D9_inline(NULL);
+		NullCheck(L_2);
+		AdaptivePerformanceManagerSettings_t825765630D775605D6E53BE60D90E50CCDDF30C2* L_3;
+		L_3 = AdaptivePerformanceGeneralSettings_get_Manager_mDAE083CC0FAA4D35601D427F634CA2B856177594_inline(L_2, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_3, NULL);
+		if (!L_4)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8_il2cpp_TypeInfo_var);
+		AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8* L_5;
+		L_5 = AdaptivePerformanceGeneralSettings_get_Instance_mE2728DFE08F4BB68D6491D67C48ADD37A60D69D9_inline(NULL);
+		NullCheck(L_5);
+		AdaptivePerformanceManagerSettings_t825765630D775605D6E53BE60D90E50CCDDF30C2* L_6;
+		L_6 = AdaptivePerformanceGeneralSettings_get_Manager_mDAE083CC0FAA4D35601D427F634CA2B856177594_inline(L_5, NULL);
+		NullCheck(L_6);
+		bool L_7;
+		L_7 = AdaptivePerformanceManagerSettings_get_isInitializationComplete_m21C21E3BDCD266224DC543AC4FAA3D96A62FF8CE_inline(L_6, NULL);
+		if (L_7)
+		{
+			goto IL_002f;
+		}
+	}
+
+IL_002e:
+	{
+		// return;
+		return;
+	}
+
+IL_002f:
+	{
+		// IAdaptivePerformanceSettings settings = AdaptivePerformanceGeneralSettings.Instance.Manager.activeLoader.GetSettings();
+		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8_il2cpp_TypeInfo_var);
+		AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8* L_8;
+		L_8 = AdaptivePerformanceGeneralSettings_get_Instance_mE2728DFE08F4BB68D6491D67C48ADD37A60D69D9_inline(NULL);
+		NullCheck(L_8);
+		AdaptivePerformanceManagerSettings_t825765630D775605D6E53BE60D90E50CCDDF30C2* L_9;
+		L_9 = AdaptivePerformanceGeneralSettings_get_Manager_mDAE083CC0FAA4D35601D427F634CA2B856177594_inline(L_8, NULL);
+		NullCheck(L_9);
+		AdaptivePerformanceLoader_tF12F9ABBB7711A0FDE47852B1F358EAD7664F54E* L_10;
+		L_10 = AdaptivePerformanceManagerSettings_get_activeLoader_m437ADEEB204181146DAB13B27D6752C74CEACD6F_inline(L_9, NULL);
+		NullCheck(L_10);
+		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_11;
+		L_11 = VirtualFuncInvoker0< IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* >::Invoke(10 /* UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader::GetSettings() */, L_10);
+		V_0 = L_11;
+		// if (settings == null)
+		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_12 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_13;
+		L_13 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_12, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_13)
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		// return;
+		return;
+	}
+
+IL_004e:
+	{
+		// settings.automaticPerformanceMode = false;
+		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_14 = V_0;
+		NullCheck(L_14);
+		IAdaptivePerformanceSettings_set_automaticPerformanceMode_m7D2AE0452E6B78FF6CEC4838B42093BE059F74D0_inline(L_14, (bool)0, NULL);
+		// settings.logging = true;
+		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_15 = V_0;
+		NullCheck(L_15);
+		IAdaptivePerformanceSettings_set_logging_mCE73AF887F2CF27D7078E04579699E72C4614C05_inline(L_15, (bool)1, NULL);
+		// Screen.sleepTimeout = SleepTimeout.NeverSleep;
+		Screen_set_sleepTimeout_mB375970159A73BB484A2B5E62A943330B83ABF9A((-1), NULL);
+		// Application.targetFrameRate = 60;
+		Application_set_targetFrameRate_mB90EEA60DAE55CD71C38D4B7DFDBE2B34EA6B46F(((int32_t)60), NULL);
+		// Debug.Log($"AdaptivePerformanceConfig setting automatic performance mode to {settings.automaticPerformanceMode},logging to {settings.logging} targetFrameRate to {Application.targetFrameRate}. Override in Sample on demand.");
+		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_16 = V_0;
+		NullCheck(L_16);
+		bool L_17;
+		L_17 = IAdaptivePerformanceSettings_get_automaticPerformanceMode_m51B5634FEB7E01814D62A2B27A444A477D8A1469_inline(L_16, NULL);
+		bool L_18 = L_17;
+		RuntimeObject* L_19 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_18);
+		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_20 = V_0;
+		NullCheck(L_20);
+		bool L_21;
+		L_21 = IAdaptivePerformanceSettings_get_logging_mB0CC800270863EFBDC55AD11224ECB542CEC862D_inline(L_20, NULL);
+		bool L_22 = L_21;
+		RuntimeObject* L_23 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_22);
+		int32_t L_24;
+		L_24 = Application_get_targetFrameRate_m5A5B0FC0DFE1EBC940FF49B8237A243F45A630E1(NULL);
+		int32_t L_25 = L_24;
+		RuntimeObject* L_26 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_25);
+		String_t* L_27;
+		L_27 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteralC822DC6ABCEFAD600372ED3C41907A8331E122B9, L_19, L_23, L_26, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_27, NULL);
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void AdaptivePerformanceSettings::Awake()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptivePerformanceSettings_Awake_m90568D51EC4B048D17A89F80CA3EF2677276297F (AdaptivePerformanceSettings_tDAE6BC418ADCAB0349C798B096373570588FB89E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_FindObjectOfType_TisAdaptiveVariableRefreshRate_tAEC009151419AD9BF86B44283692F0C4CD9794A4_m73B2D424B15BA7CD767DEA09FF3615AEFCF9EE52_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* V_0 = NULL;
+	AdaptiveVariableRefreshRate_tAEC009151419AD9BF86B44283692F0C4CD9794A4* V_1 = NULL;
+	{
+		// if (!AdaptivePerformanceGeneralSettings.Instance || !AdaptivePerformanceGeneralSettings.Instance.Manager || !AdaptivePerformanceGeneralSettings.Instance.Manager.isInitializationComplete)
+		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8_il2cpp_TypeInfo_var);
+		AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8* L_0;
+		L_0 = AdaptivePerformanceGeneralSettings_get_Instance_mE2728DFE08F4BB68D6491D67C48ADD37A60D69D9_inline(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8_il2cpp_TypeInfo_var);
+		AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8* L_2;
+		L_2 = AdaptivePerformanceGeneralSettings_get_Instance_mE2728DFE08F4BB68D6491D67C48ADD37A60D69D9_inline(NULL);
+		NullCheck(L_2);
+		AdaptivePerformanceManagerSettings_t825765630D775605D6E53BE60D90E50CCDDF30C2* L_3;
+		L_3 = AdaptivePerformanceGeneralSettings_get_Manager_mDAE083CC0FAA4D35601D427F634CA2B856177594_inline(L_2, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_3, NULL);
+		if (!L_4)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8_il2cpp_TypeInfo_var);
+		AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8* L_5;
+		L_5 = AdaptivePerformanceGeneralSettings_get_Instance_mE2728DFE08F4BB68D6491D67C48ADD37A60D69D9_inline(NULL);
+		NullCheck(L_5);
+		AdaptivePerformanceManagerSettings_t825765630D775605D6E53BE60D90E50CCDDF30C2* L_6;
+		L_6 = AdaptivePerformanceGeneralSettings_get_Manager_mDAE083CC0FAA4D35601D427F634CA2B856177594_inline(L_5, NULL);
+		NullCheck(L_6);
+		bool L_7;
+		L_7 = AdaptivePerformanceManagerSettings_get_isInitializationComplete_m21C21E3BDCD266224DC543AC4FAA3D96A62FF8CE_inline(L_6, NULL);
+		if (L_7)
+		{
+			goto IL_002f;
+		}
+	}
+
+IL_002e:
+	{
+		// return;
+		return;
+	}
+
+IL_002f:
+	{
+		// IAdaptivePerformanceSettings settings = AdaptivePerformanceGeneralSettings.Instance.Manager.activeLoader.GetSettings();
+		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8_il2cpp_TypeInfo_var);
+		AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8* L_8;
+		L_8 = AdaptivePerformanceGeneralSettings_get_Instance_mE2728DFE08F4BB68D6491D67C48ADD37A60D69D9_inline(NULL);
+		NullCheck(L_8);
+		AdaptivePerformanceManagerSettings_t825765630D775605D6E53BE60D90E50CCDDF30C2* L_9;
+		L_9 = AdaptivePerformanceGeneralSettings_get_Manager_mDAE083CC0FAA4D35601D427F634CA2B856177594_inline(L_8, NULL);
+		NullCheck(L_9);
+		AdaptivePerformanceLoader_tF12F9ABBB7711A0FDE47852B1F358EAD7664F54E* L_10;
+		L_10 = AdaptivePerformanceManagerSettings_get_activeLoader_m437ADEEB204181146DAB13B27D6752C74CEACD6F_inline(L_9, NULL);
+		NullCheck(L_10);
+		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_11;
+		L_11 = VirtualFuncInvoker0< IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* >::Invoke(10 /* UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader::GetSettings() */, L_10);
+		V_0 = L_11;
+		// if (settings == null)
+		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_12 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_13;
+		L_13 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_12, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_13)
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		// return;
+		return;
+	}
+
+IL_004e:
+	{
+		// settings.scalerSettings.AdaptiveBatching.enabled = AdaptiveBatching;
+		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_14 = V_0;
+		NullCheck(L_14);
+		AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* L_15;
+		L_15 = IAdaptivePerformanceSettings_get_scalerSettings_mB33C0AAA3A6CA0B05E9B1E205853D1698A088575_inline(L_14, NULL);
+		NullCheck(L_15);
+		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_16;
+		L_16 = AdaptivePerformanceScalerSettings_get_AdaptiveBatching_mDC178D42713C75DE1ACF822852B8038D72EA821E_inline(L_15, NULL);
+		bool L_17 = __this->___AdaptiveBatching_4;
+		NullCheck(L_16);
+		AdaptivePerformanceScalerSettingsBase_set_enabled_m9ED5BD57BEF1EEA325609F4B29288390492797B8_inline(L_16, L_17, NULL);
+		// settings.scalerSettings.AdaptiveFramerate.enabled = AdaptiveFramerate;
+		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_18 = V_0;
+		NullCheck(L_18);
+		AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* L_19;
+		L_19 = IAdaptivePerformanceSettings_get_scalerSettings_mB33C0AAA3A6CA0B05E9B1E205853D1698A088575_inline(L_18, NULL);
+		NullCheck(L_19);
+		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_20;
+		L_20 = AdaptivePerformanceScalerSettings_get_AdaptiveFramerate_m139C9E39E32D63FA9BC0C37B81B0F1FAE63CDECB_inline(L_19, NULL);
+		bool L_21 = __this->___AdaptiveFramerate_5;
+		NullCheck(L_20);
+		AdaptivePerformanceScalerSettingsBase_set_enabled_m9ED5BD57BEF1EEA325609F4B29288390492797B8_inline(L_20, L_21, NULL);
+		// settings.scalerSettings.AdaptiveLOD.enabled = AdaptiveLOD;
+		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_22 = V_0;
+		NullCheck(L_22);
+		AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* L_23;
+		L_23 = IAdaptivePerformanceSettings_get_scalerSettings_mB33C0AAA3A6CA0B05E9B1E205853D1698A088575_inline(L_22, NULL);
+		NullCheck(L_23);
+		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_24;
+		L_24 = AdaptivePerformanceScalerSettings_get_AdaptiveLOD_m6A255C8B118A1769FE4DB9B8431F019FC556DA4C_inline(L_23, NULL);
+		bool L_25 = __this->___AdaptiveLOD_6;
+		NullCheck(L_24);
+		AdaptivePerformanceScalerSettingsBase_set_enabled_m9ED5BD57BEF1EEA325609F4B29288390492797B8_inline(L_24, L_25, NULL);
+		// settings.scalerSettings.AdaptiveLut.enabled = AdaptiveLut;
+		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_26 = V_0;
+		NullCheck(L_26);
+		AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* L_27;
+		L_27 = IAdaptivePerformanceSettings_get_scalerSettings_mB33C0AAA3A6CA0B05E9B1E205853D1698A088575_inline(L_26, NULL);
+		NullCheck(L_27);
+		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_28;
+		L_28 = AdaptivePerformanceScalerSettings_get_AdaptiveLut_m2E6C5FF862F16ABF21E2CDC88C07A625F3B56FB1_inline(L_27, NULL);
+		bool L_29 = __this->___AdaptiveLut_7;
+		NullCheck(L_28);
+		AdaptivePerformanceScalerSettingsBase_set_enabled_m9ED5BD57BEF1EEA325609F4B29288390492797B8_inline(L_28, L_29, NULL);
+		// settings.scalerSettings.AdaptiveMSAA.enabled = AdaptiveMSAA;
+		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_30 = V_0;
+		NullCheck(L_30);
+		AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* L_31;
+		L_31 = IAdaptivePerformanceSettings_get_scalerSettings_mB33C0AAA3A6CA0B05E9B1E205853D1698A088575_inline(L_30, NULL);
+		NullCheck(L_31);
+		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_32;
+		L_32 = AdaptivePerformanceScalerSettings_get_AdaptiveMSAA_mE9B6B36E909157597D81AF42FE785D87DF987C7E_inline(L_31, NULL);
+		bool L_33 = __this->___AdaptiveMSAA_8;
+		NullCheck(L_32);
+		AdaptivePerformanceScalerSettingsBase_set_enabled_m9ED5BD57BEF1EEA325609F4B29288390492797B8_inline(L_32, L_33, NULL);
+		// settings.scalerSettings.AdaptiveResolution.enabled = AdaptiveResolution;
+		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_34 = V_0;
+		NullCheck(L_34);
+		AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* L_35;
+		L_35 = IAdaptivePerformanceSettings_get_scalerSettings_mB33C0AAA3A6CA0B05E9B1E205853D1698A088575_inline(L_34, NULL);
+		NullCheck(L_35);
+		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_36;
+		L_36 = AdaptivePerformanceScalerSettings_get_AdaptiveResolution_m861CB3DABDDF10571C00579C62F0370AF2314D62_inline(L_35, NULL);
+		bool L_37 = __this->___AdaptiveResolution_9;
+		NullCheck(L_36);
+		AdaptivePerformanceScalerSettingsBase_set_enabled_m9ED5BD57BEF1EEA325609F4B29288390492797B8_inline(L_36, L_37, NULL);
+		// settings.scalerSettings.AdaptiveShadowCascade.enabled = AdaptiveShadowCascades;
+		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_38 = V_0;
+		NullCheck(L_38);
+		AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* L_39;
+		L_39 = IAdaptivePerformanceSettings_get_scalerSettings_mB33C0AAA3A6CA0B05E9B1E205853D1698A088575_inline(L_38, NULL);
+		NullCheck(L_39);
+		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_40;
+		L_40 = AdaptivePerformanceScalerSettings_get_AdaptiveShadowCascade_mBD0680ECA67B38D0E03B61C5167BA1E378359F92_inline(L_39, NULL);
+		bool L_41 = __this->___AdaptiveShadowCascades_10;
+		NullCheck(L_40);
+		AdaptivePerformanceScalerSettingsBase_set_enabled_m9ED5BD57BEF1EEA325609F4B29288390492797B8_inline(L_40, L_41, NULL);
+		// settings.scalerSettings.AdaptiveShadowDistance.enabled = AdaptiveShadowDistance;
+		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_42 = V_0;
+		NullCheck(L_42);
+		AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* L_43;
+		L_43 = IAdaptivePerformanceSettings_get_scalerSettings_mB33C0AAA3A6CA0B05E9B1E205853D1698A088575_inline(L_42, NULL);
+		NullCheck(L_43);
+		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_44;
+		L_44 = AdaptivePerformanceScalerSettings_get_AdaptiveShadowDistance_mDC623CDFB794E162E723A28CF99AC6C2DE55D878_inline(L_43, NULL);
+		bool L_45 = __this->___AdaptiveShadowDistance_11;
+		NullCheck(L_44);
+		AdaptivePerformanceScalerSettingsBase_set_enabled_m9ED5BD57BEF1EEA325609F4B29288390492797B8_inline(L_44, L_45, NULL);
+		// settings.scalerSettings.AdaptiveShadowmapResolution.enabled = AdaptiveShadowmapResolution;
+		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_46 = V_0;
+		NullCheck(L_46);
+		AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* L_47;
+		L_47 = IAdaptivePerformanceSettings_get_scalerSettings_mB33C0AAA3A6CA0B05E9B1E205853D1698A088575_inline(L_46, NULL);
+		NullCheck(L_47);
+		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_48;
+		L_48 = AdaptivePerformanceScalerSettings_get_AdaptiveShadowmapResolution_mD0080328CCE0EB1C8E5AA887D368443BD46A8CD8_inline(L_47, NULL);
+		bool L_49 = __this->___AdaptiveShadowmapResolution_12;
+		NullCheck(L_48);
+		AdaptivePerformanceScalerSettingsBase_set_enabled_m9ED5BD57BEF1EEA325609F4B29288390492797B8_inline(L_48, L_49, NULL);
+		// settings.scalerSettings.AdaptiveShadowQuality.enabled = AdaptiveShadowQuality;
+		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_50 = V_0;
+		NullCheck(L_50);
+		AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* L_51;
+		L_51 = IAdaptivePerformanceSettings_get_scalerSettings_mB33C0AAA3A6CA0B05E9B1E205853D1698A088575_inline(L_50, NULL);
+		NullCheck(L_51);
+		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_52;
+		L_52 = AdaptivePerformanceScalerSettings_get_AdaptiveShadowQuality_m21DCF0D2F165C7336B14E21BD7884AF8BD693E2C_inline(L_51, NULL);
+		bool L_53 = __this->___AdaptiveShadowQuality_13;
+		NullCheck(L_52);
+		AdaptivePerformanceScalerSettingsBase_set_enabled_m9ED5BD57BEF1EEA325609F4B29288390492797B8_inline(L_52, L_53, NULL);
+		// settings.scalerSettings.AdaptiveSorting.enabled = AdaptiveSorting;
+		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_54 = V_0;
+		NullCheck(L_54);
+		AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* L_55;
+		L_55 = IAdaptivePerformanceSettings_get_scalerSettings_mB33C0AAA3A6CA0B05E9B1E205853D1698A088575_inline(L_54, NULL);
+		NullCheck(L_55);
+		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_56;
+		L_56 = AdaptivePerformanceScalerSettings_get_AdaptiveSorting_mE5C2FD1CC0AB0A7AF3F6447C2943D50F40BC1016_inline(L_55, NULL);
+		bool L_57 = __this->___AdaptiveSorting_15;
+		NullCheck(L_56);
+		AdaptivePerformanceScalerSettingsBase_set_enabled_m9ED5BD57BEF1EEA325609F4B29288390492797B8_inline(L_56, L_57, NULL);
+		// settings.scalerSettings.AdaptiveTransparency.enabled = AdaptiveTransparency;
+		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_58 = V_0;
+		NullCheck(L_58);
+		AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* L_59;
+		L_59 = IAdaptivePerformanceSettings_get_scalerSettings_mB33C0AAA3A6CA0B05E9B1E205853D1698A088575_inline(L_58, NULL);
+		NullCheck(L_59);
+		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_60;
+		L_60 = AdaptivePerformanceScalerSettings_get_AdaptiveTransparency_m4DA7C35BF8071924D5C8D9B0ADD7C5DDD5E32CE0_inline(L_59, NULL);
+		bool L_61 = __this->___AdaptiveTransparency_14;
+		NullCheck(L_60);
+		AdaptivePerformanceScalerSettingsBase_set_enabled_m9ED5BD57BEF1EEA325609F4B29288390492797B8_inline(L_60, L_61, NULL);
+		// settings.scalerSettings.AdaptiveViewDistance.enabled = AdaptiveViewDistance;
+		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_62 = V_0;
+		NullCheck(L_62);
+		AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* L_63;
+		L_63 = IAdaptivePerformanceSettings_get_scalerSettings_mB33C0AAA3A6CA0B05E9B1E205853D1698A088575_inline(L_62, NULL);
+		NullCheck(L_63);
+		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_64;
+		L_64 = AdaptivePerformanceScalerSettings_get_AdaptiveViewDistance_mE7E45AB3EC0919AAF5B9F80D395C676B7B4143A9_inline(L_63, NULL);
+		bool L_65 = __this->___AdaptiveViewDistance_16;
+		NullCheck(L_64);
+		AdaptivePerformanceScalerSettingsBase_set_enabled_m9ED5BD57BEF1EEA325609F4B29288390492797B8_inline(L_64, L_65, NULL);
+		// var adaptiveVRR = GameObject.FindObjectOfType<AdaptiveVariableRefreshRate>();
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		AdaptiveVariableRefreshRate_tAEC009151419AD9BF86B44283692F0C4CD9794A4* L_66;
+		L_66 = Object_FindObjectOfType_TisAdaptiveVariableRefreshRate_tAEC009151419AD9BF86B44283692F0C4CD9794A4_m73B2D424B15BA7CD767DEA09FF3615AEFCF9EE52(Object_FindObjectOfType_TisAdaptiveVariableRefreshRate_tAEC009151419AD9BF86B44283692F0C4CD9794A4_m73B2D424B15BA7CD767DEA09FF3615AEFCF9EE52_RuntimeMethod_var);
+		V_1 = L_66;
+		// if (adaptiveVRR)
+		AdaptiveVariableRefreshRate_tAEC009151419AD9BF86B44283692F0C4CD9794A4* L_67 = V_1;
+		bool L_68;
+		L_68 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_67, NULL);
+		if (!L_68)
+		{
+			goto IL_0186;
+		}
+	}
+	{
+		// adaptiveVRR.Enabled = AdaptiveVRR;
+		AdaptiveVariableRefreshRate_tAEC009151419AD9BF86B44283692F0C4CD9794A4* L_69 = V_1;
+		bool L_70 = __this->___AdaptiveVRR_17;
+		NullCheck(L_69);
+		VirtualActionInvoker1< bool >::Invoke(7 /* System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::set_Enabled(System.Boolean) */, L_69, L_70);
+	}
+
+IL_0186:
+	{
+		// }
+		return;
+	}
+}
+// System.Void AdaptivePerformanceSettings::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptivePerformanceSettings__ctor_m4D22EB6A486E35F427CCAB04AC78949845BDD069 (AdaptivePerformanceSettings_tDAE6BC418ADCAB0349C798B096373570588FB89E* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8* AdaptivePerformanceGeneralSettings_get_Instance_mE2728DFE08F4BB68D6491D67C48ADD37A60D69D9_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// return s_RuntimeSettingsInstance;
+		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8_il2cpp_TypeInfo_var);
+		AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8* L_0 = ((AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8_StaticFields*)il2cpp_codegen_static_fields_for(AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8_il2cpp_TypeInfo_var))->___s_RuntimeSettingsInstance_5;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceManagerSettings_t825765630D775605D6E53BE60D90E50CCDDF30C2* AdaptivePerformanceGeneralSettings_get_Manager_mDAE083CC0FAA4D35601D427F634CA2B856177594_inline (AdaptivePerformanceGeneralSettings_tB55BA22C43C64C564E1E064B5FA9768EBF8DEFD8* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return m_LoaderManagerInstance; }
+		AdaptivePerformanceManagerSettings_t825765630D775605D6E53BE60D90E50CCDDF30C2* L_0 = __this->___m_LoaderManagerInstance_6;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool AdaptivePerformanceManagerSettings_get_isInitializationComplete_m21C21E3BDCD266224DC543AC4FAA3D96A62FF8CE_inline (AdaptivePerformanceManagerSettings_t825765630D775605D6E53BE60D90E50CCDDF30C2* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return m_InitializationComplete; }
+		bool L_0 = __this->___m_InitializationComplete_4;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceLoader_tF12F9ABBB7711A0FDE47852B1F358EAD7664F54E* AdaptivePerformanceManagerSettings_get_activeLoader_m437ADEEB204181146DAB13B27D6752C74CEACD6F_inline (AdaptivePerformanceManagerSettings_t825765630D775605D6E53BE60D90E50CCDDF30C2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceManagerSettings_t825765630D775605D6E53BE60D90E50CCDDF30C2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public AdaptivePerformanceLoader activeLoader { get { return s_ActiveLoader; } private set { s_ActiveLoader = value; } }
+		AdaptivePerformanceLoader_tF12F9ABBB7711A0FDE47852B1F358EAD7664F54E* L_0 = ((AdaptivePerformanceManagerSettings_t825765630D775605D6E53BE60D90E50CCDDF30C2_StaticFields*)il2cpp_codegen_static_fields_for(AdaptivePerformanceManagerSettings_t825765630D775605D6E53BE60D90E50CCDDF30C2_il2cpp_TypeInfo_var))->___s_ActiveLoader_8;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void IAdaptivePerformanceSettings_set_automaticPerformanceMode_m7D2AE0452E6B78FF6CEC4838B42093BE059F74D0_inline (IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	{
+		// set { m_AutomaticPerformanceModeEnabled = value; }
+		bool L_0 = ___value0;
+		__this->___m_AutomaticPerformanceModeEnabled_5 = L_0;
+		// set { m_AutomaticPerformanceModeEnabled = value; }
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void IAdaptivePerformanceSettings_set_logging_mCE73AF887F2CF27D7078E04579699E72C4614C05_inline (IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	{
+		// set { m_Logging = value; }
+		bool L_0 = ___value0;
+		__this->___m_Logging_4 = L_0;
+		// set { m_Logging = value; }
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IAdaptivePerformanceSettings_get_automaticPerformanceMode_m51B5634FEB7E01814D62A2B27A444A477D8A1469_inline (IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return m_AutomaticPerformanceModeEnabled; }
+		bool L_0 = __this->___m_AutomaticPerformanceModeEnabled_5;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IAdaptivePerformanceSettings_get_logging_mB0CC800270863EFBDC55AD11224ECB542CEC862D_inline (IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return m_Logging; }
+		bool L_0 = __this->___m_Logging_4;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* IAdaptivePerformanceSettings_get_scalerSettings_mB33C0AAA3A6CA0B05E9B1E205853D1698A088575_inline (IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return m_ScalerSettings; }
+		AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* L_0 = __this->___m_ScalerSettings_9;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* AdaptivePerformanceScalerSettings_get_AdaptiveBatching_mDC178D42713C75DE1ACF822852B8038D72EA821E_inline (AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return m_AdaptiveBatching; }
+		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_0 = __this->___m_AdaptiveBatching_2;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdaptivePerformanceScalerSettingsBase_set_enabled_m9ED5BD57BEF1EEA325609F4B29288390492797B8_inline (AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	{
+		// set { m_Enabled = value; }
+		bool L_0 = ___value0;
+		__this->___m_Enabled_1 = L_0;
+		// set { m_Enabled = value; }
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* AdaptivePerformanceScalerSettings_get_AdaptiveFramerate_m139C9E39E32D63FA9BC0C37B81B0F1FAE63CDECB_inline (AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return m_AdaptiveFramerate; }
+		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_0 = __this->___m_AdaptiveFramerate_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* AdaptivePerformanceScalerSettings_get_AdaptiveLOD_m6A255C8B118A1769FE4DB9B8431F019FC556DA4C_inline (AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return m_AdaptiveLOD; }
+		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_0 = __this->___m_AdaptiveLOD_3;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* AdaptivePerformanceScalerSettings_get_AdaptiveLut_m2E6C5FF862F16ABF21E2CDC88C07A625F3B56FB1_inline (AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return m_AdaptiveLut; }
+		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_0 = __this->___m_AdaptiveLut_4;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* AdaptivePerformanceScalerSettings_get_AdaptiveMSAA_mE9B6B36E909157597D81AF42FE785D87DF987C7E_inline (AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return m_AdaptiveMSAA; }
+		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_0 = __this->___m_AdaptiveMSAA_5;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* AdaptivePerformanceScalerSettings_get_AdaptiveResolution_m861CB3DABDDF10571C00579C62F0370AF2314D62_inline (AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return m_AdaptiveResolution; }
+		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_0 = __this->___m_AdaptiveResolution_1;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* AdaptivePerformanceScalerSettings_get_AdaptiveShadowCascade_mBD0680ECA67B38D0E03B61C5167BA1E378359F92_inline (AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return m_AdaptiveShadowCascade; }
+		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_0 = __this->___m_AdaptiveShadowCascade_6;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* AdaptivePerformanceScalerSettings_get_AdaptiveShadowDistance_mDC623CDFB794E162E723A28CF99AC6C2DE55D878_inline (AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return m_AdaptiveShadowDistance; }
+		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_0 = __this->___m_AdaptiveShadowDistance_8;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* AdaptivePerformanceScalerSettings_get_AdaptiveShadowmapResolution_mD0080328CCE0EB1C8E5AA887D368443BD46A8CD8_inline (AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return m_AdaptiveShadowmapResolution; }
+		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_0 = __this->___m_AdaptiveShadowmapResolution_9;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* AdaptivePerformanceScalerSettings_get_AdaptiveShadowQuality_m21DCF0D2F165C7336B14E21BD7884AF8BD693E2C_inline (AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return m_AdaptiveShadowQuality; }
+		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_0 = __this->___m_AdaptiveShadowQuality_10;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* AdaptivePerformanceScalerSettings_get_AdaptiveSorting_mE5C2FD1CC0AB0A7AF3F6447C2943D50F40BC1016_inline (AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return m_AdaptiveSorting; }
+		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_0 = __this->___m_AdaptiveSorting_11;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* AdaptivePerformanceScalerSettings_get_AdaptiveTransparency_m4DA7C35BF8071924D5C8D9B0ADD7C5DDD5E32CE0_inline (AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return m_AdaptiveTransparency; }
+		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_0 = __this->___m_AdaptiveTransparency_12;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* AdaptivePerformanceScalerSettings_get_AdaptiveViewDistance_mE7E45AB3EC0919AAF5B9F80D395C676B7B4143A9_inline (AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return m_AdaptiveViewDistance; }
+		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_0 = __this->___m_AdaptiveViewDistance_13;
+		return L_0;
+	}
+}

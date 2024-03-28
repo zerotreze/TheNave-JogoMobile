@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 10cab343bb76c2c498fe7a49a3ef78db
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - laserDoInimigo: {fileID: 8663069796857256894, guid: 5331dfbd504b7374292249b2f2123901, type: 3}
+  - localDoDisparo: {instanceID: 0}
+  - explodePrefab: {fileID: 6383775699219303421, guid: 2083bee44495b5c4582514b0f4151d86, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
